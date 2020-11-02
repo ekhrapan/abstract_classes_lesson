@@ -25,7 +25,7 @@ public class RightTriangle extends Figure {
     @Override
     public double perimeter() {
         double hypotenuse = Math.sqrt(a * a + b * b);
-        return (a + b) + hypotenuse;
+        return a + b + hypotenuse;
     }
 
     /**
